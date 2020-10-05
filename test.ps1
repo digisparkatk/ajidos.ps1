@@ -1,4 +1,8 @@
-Function Get-ChromeDump{
+Function algo {
+  algo = "algo"
+}
+
+Function Get-CromeDump{
 
   
 
